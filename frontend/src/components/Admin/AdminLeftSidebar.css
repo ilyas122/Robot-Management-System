@@ -1,0 +1,29 @@
+.adminleftsidebar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #e2725a;
+}
+
+.adminleftsidebar__tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+    border-top: 0.5px gray solid;
+    border-bottom: 0.5px gray solid;
+}
+
+
+.adminleftsidebar__tab:active{
+    background-color: #4a6274;
+}
+
+.adminleftsidebar__tab > span {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
